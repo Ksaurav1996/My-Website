@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title></title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  	*{ 
+        margin:0; padding: 0; font-family: "Arial";
+  	  }
+</style>
+</head>
+<body>
+	<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#" style="padding:0px;">
+  <img src="F:\New folder(3)\images\logo1.png" style="height:100%;">
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="F:\New folder(3)\index.html">Home page<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Admission form<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Examination
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Examination Schedule</a>
+          <a class="dropdown-item" href="#">Examination Guidelines</a>
+          
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>
+    <div class="container">
+  <h2 class="text-center text-capitalize pt-5">Admission Form</h2>
+    <hr class="w-25 mx-auto pt-5">
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="name">Name:-</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="Father's name">Father's name:-</label>
+      <input type="Father's name" class="form-control" id="father" placeholder="Enter Father's name" name="Father's name">
+    </div>
+    <div class="form-group">
+      <label for="Address">Address:-</label>
+      <input type="text" class="form-control" id="address" placeholder="Enter Address" name="Address">
+    </div>
+    <div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio">Male
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio">Female
+  </label>
+</div><br>
+<div class="form-group">
+  <label for="class">Select class/standard-:</label>
+  <select class="form-control" id="class">
+    <option>Nursery</option>
+    <option>L.K.G.</option>
+    <option>U.K.G.</option>
+    <option>1st</option>
+    <option>2nd</option>
+    <option>3rd</option>
+    <option>4th</option>
+    <option>5th</option>
+    <option>6th</option>
+    <option>7th</option>
+    <option>8th</option>
+    <option>9th</option>
+    <option>10th</option>
+  </select>
+</div>
+<div class="form-group">
+  <label for="city">Select city:-</label>
+  <select class="form-control" id="city">
+    <option>New Delhi</option>
+    <option>Mumbai</option>
+    <option>Goa</option>
+    <option>Patna</option>
+  </select>
+</div>
+<div class="form-group">
+  <label for="district">Select District:-</label>
+  <select class="form-control" id="District">
+    <option>Jalandhar</option>
+    <option>Khanpur</option>
+    <option>SBS Nagar</option>
+    <option>Rohtak</option>
+  </select>
+</div>
+<div class="form-group">
+  <label for="state">Select State:-</label>
+  <select class="form-control" id="State">
+    <option>Punjab</option>
+    <option> New Delhi</option>
+    <option>Maharashtra</option>
+    <option>Tamil Nadu</option>
+  </select>
+</div>
+<div class="form-group">
+      <label for="Pincode">Pincode:-</label>
+      <input type="text" class="form-control" id="Pincode" placeholder="Enter Pincode" name="Pincode">
+    </div>
+    <div class="form-group">
+      <label for="DOB">Date of birth:-</label>
+      <input type="text" class="form-control" id="birht" placeholder="Enter 
+Date of birth" name="
+Date of birth">
+    </div>
+    <div class="form-group">
+      <label for="E-mail">E-mail:-</label>
+      <input type="text" class="form-control" id="E-mail" placeholder="Enter E-mail" name="E-mail">
+    </div>
+    <div class="form-group">
+      <label for="contact no.">Contact no.:-</label>
+      <input type="text" class="form-control" id="contact no." placeholder="Enter contact no." name="contact no.">
+    </div>
+<div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember">Above written all the information are true to the best of my knowledge and i will responsible for it.
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+
+</body>
+</html>
